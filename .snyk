@@ -1,0 +1,331 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug
+  'npm:extend:20180424':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > extend
+    - karma > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > extend
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          extend
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > extend
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          extend
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          hawk > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom
+          > hoek
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          karma > chokidar > fsevents > node-pre-gyp > request > hawk > boom >
+          hoek
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          hawk > boom > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom >
+          hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp
+          > hoek
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          karma > chokidar > fsevents > node-pre-gyp > request > hawk > sntp >
+          hoek
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          hawk > sntp > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp >
+          hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > boom > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > sntp > hoek
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > hoek
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > boom > hoek
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > sntp > hoek
+  'npm:ms:20170412':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug > ms
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug > ms
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug > ms
+  'npm:qs:20170213':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > qs
+    - karma > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > qs
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          qs
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > qs
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          qs
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > qs
+  'npm:stringstream:20180511':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+    - karma > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > stringstream
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+  'npm:tough-cookie:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+    - karma > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > tough-cookie
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
+    - karma > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: karma > chokidar > fsevents > node-pre-gyp > request > tunnel-agent
+    - karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          karma-remap-istanbul > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > tunnel-agent
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
+    - stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-09-02T13:38:14.338Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          stylelint-webpack-plugin > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tunnel-agent
